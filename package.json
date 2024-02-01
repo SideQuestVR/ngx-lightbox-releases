@@ -1,0 +1,36 @@
+{
+  "name": "ngx-lightbox",
+  "version": "13.0.0",
+  "peerDependencies": {
+    "@angular/common": "^13.3.11",
+    "@angular/core": "^13.3.11"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viscoci/ngx-lightbox.git",
+    "directory": "dist/ngx-lightbox"
+  },
+  "module": "fesm2015/ngx-lightbox.mjs",
+  "es2020": "fesm2020/ngx-lightbox.mjs",
+  "esm2020": "esm2020/ngx-lightbox.mjs",
+  "fesm2020": "fesm2020/ngx-lightbox.mjs",
+  "fesm2015": "fesm2015/ngx-lightbox.mjs",
+  "typings": "ngx-lightbox.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./ngx-lightbox.d.ts",
+      "esm2020": "./esm2020/ngx-lightbox.mjs",
+      "es2020": "./fesm2020/ngx-lightbox.mjs",
+      "es2015": "./fesm2015/ngx-lightbox.mjs",
+      "node": "./fesm2015/ngx-lightbox.mjs",
+      "default": "./fesm2020/ngx-lightbox.mjs"
+    }
+  },
+  "sideEffects": false
+}
